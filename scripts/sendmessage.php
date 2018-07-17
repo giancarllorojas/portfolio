@@ -9,8 +9,6 @@ if(isset($_POST['name'], $_POST['message'], $_POST['email'])){
 
     $token = "";
 
-
-
     $data = array(
         'text' => $messaggio,
         'chat_id' => $chatID
